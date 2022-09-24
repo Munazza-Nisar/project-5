@@ -1,0 +1,662 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    line-height: 1.7em;
+    font-size: 12px;
+    font-family: 'Roboto';
+}
+
+
+
+@media screen and (max-width: 576px) {
+    /* nav */
+    .hamburger{
+        display: block;
+    }
+    .items_block{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 5rem;
+    }
+    .nav{
+       justify-content: space-between;
+        border-radius: 0;
+    }
+    .nav_bar {
+        padding-top: 0rem;
+    }
+    .top_ntfs_text{
+        flex-basis: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    .top_ntfs{
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem 2rem;
+    }
+    .top_ntfs_img >img{
+        width: 100%;
+    }
+     /* Categories */
+    
+     .categories_block{
+      flex-direction: column;
+      padding: 0 2rem;
+    }
+    /* collections */
+    .collections_slider{
+        flex-direction: column;
+        padding: 2rem;
+        gap: 6rem;
+    }
+    /*  */
+    .NFT_block{
+        flex-direction: column;
+        padding: 4rem;
+    }
+    .NFT_heading{
+        text-align: center;
+    }
+    .NFT_content{
+        border: none;
+        text-align: center;
+    }
+  
+    
+    .NFT_icon{
+        margin: 0 auto;
+    }
+    .NFT_heading{
+        padding: 2rem;
+    }
+    .NFT_top{
+        padding: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .NFT_line{
+        margin: 2rem auto;
+    }
+    .items_line {
+        margin: 0 auto;
+    }
+    .items_menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .items_top{
+        flex-direction: column;
+        align-items: center;
+    }
+     /* Items */
+     .item_card{
+        flex-direction: column;
+        
+    }
+    .item_img{
+        width: 100%;
+    }
+    .item_imgs>img{
+        width: 100%;
+    }
+    .items_line {
+        margin: 2rem auto;
+    }
+    .profile{
+        flex-direction: column;
+        align-items: center;
+    }
+    .item_card_title{
+        text-align: center;
+    }
+    /* explore */
+    .seller_block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .slider_img{
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .slider_img>.img{
+        margin: 1rem;
+    }
+    .slider_img>.img>img{
+        width: 100%;
+        
+    }
+    .discover_items_menu {
+        /* margin: 0 0.5rem; */
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .discover_view_details>button{
+        bottom:  -4.3rem;
+    }
+    .discover_details_block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .discover_items_top{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+     }
+    .img_block{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .block_details {
+        flex-direction: column;
+        align-items: center;
+    }
+    .double_details{
+        width: 71%;
+        /* margin: 2rem 4rem; */
+    }
+    .single_detail{
+        flex-direction: column;
+        align-items: center;
+    }
+    .single_details{
+        flex-wrap: wrap;
+       align-items: center;
+    }
+    .discover_single_blocks{
+       
+        /* margin: 2rem 4rem; */
+    }
+    .bottom_block{
+      
+        /* margin-bottom: 2rem 4rem !important; */
+    }
+      /* item details */
+      .item_block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 2rem;
+    }
+    .item_content_heading {
+       
+        text-align: center;
+    }
+    .item_details_info{
+        justify-content: space-between;
+    }
+    .item_biddings_top{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .item_img>img {
+       width: 100%;
+    }
+    .item_details_info {
+       
+        gap: 2rem;
+    }
+    .buddings_card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .budding_block{
+        gap: 2rem;
+    }
+    .budding_card_box{
+        padding-bottom: 2rem;
+    }
+    /* creaters */
+    .create {
+        margin: 7rem 2rem;
+      }
+      .create_top_input {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+       .create_input {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .create_input_file {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+      }
+      .top_input>input{
+        width: 100%;
+    }
+    .bottom_input>input{
+        width: 100%;
+    }
+    .create_btn>button {
+        padding: 0.5rem 2.5rem;
+    }
+      /* author */
+      .authore_follower{
+        width: auto;
+      }
+      .authore_content{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .authore_profile {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .authore_profile_detail {
+        text-align: center;
+    }
+    .likes{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .followers{
+        flex-direction: column;
+        align-items: center;
+    }
+    .followers>button {
+        margin: 0;
+    }
+    .single_detail {
+        flex-wrap: wrap;
+        gap: 4rem 2rem;
+    }
+    .author_heading{
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center; display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        width: 100%;
+    }
+
+   
+    .items_block{
+        gap: 5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .nav{
+        flex-direction: column;
+        align-items: center;
+        border-radius: 0;
+    }
+    .nav_bar {
+        padding-top: 0rem;
+    }
+    .top_ntfs_text{
+        flex-basis: 100%;
+    }
+    .menu>a{
+        display: none;
+    }
+    .top_ntfs{
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem 2rem;
+    }
+    /* Categories */
+    .categories_block{
+        flex-wrap: wrap;
+    }
+    /* collections */
+  
+    .collections_slider{
+        flex-direction: column;
+        padding: 4rem;
+        gap: 6rem;
+    }
+     /*  */
+     .NFT_block{
+        flex-direction: column;
+        padding: 4rem;
+    }
+    .NFT_heading{
+        text-align: center;
+    }
+    .NFT_content{
+        border: none;
+        text-align: center;
+    }
+    .NFT_icon{
+        margin: 0 auto;
+    }
+    .NFT_heading{
+        padding: 2rem;
+    }
+    .NFT_top{
+        padding: 2rem;
+    }
+    .items_top{
+        flex-direction: column;
+        align-items: center;
+    }
+    .items_line {
+        margin: 2rem auto;
+    }
+    .slider_img{
+       flex-direction: column;
+       align-items: center;
+       
+    }
+    .seller_block {
+        flex-wrap: wrap;
+        gap: 2rem 0;
+    }
+    .sellers{
+        flex-basis: 25rem;
+    }
+    .discover_details_block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .discover_items_top{
+       flex-direction: column;
+       align-items: center;
+       gap: 2rem;
+    }
+    .single_details{
+        flex-wrap: wrap;
+       align-items: center;
+    }
+    .bottom_block{
+        width: 20rem;
+        margin-bottom: 2rem;
+    }
+    .single_details{
+        flex-wrap: wrap;
+       align-items: center;
+    }
+    .bottom_block{
+        width: 25rem;
+        margin-bottom: 2rem;
+    }
+     /* item details */
+     .item_block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 4rem;
+    }
+    .item_imgs>img {
+        width: 100%;
+    }
+    .buddings_card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .budding_block{
+        gap: 2rem;
+    }
+    .budding_card_box{
+        padding-bottom: 2rem;
+    }
+     /* creaters */
+      .create {
+        margin: 7rem 4rem;
+      }
+      .create_top_input {
+        flex-direction: column;
+        align-items: center;
+      }
+       .create_input {
+        flex-direction: column;
+        align-items: center;
+      }
+      .create_input_file {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+      }
+      .top_input>input{
+        width: 34rem;
+    }
+    .bottom_input>input{
+        width: 34rem;
+    }
+    .create_btn>button {
+        padding: 0.5rem 11.5rem;
+    }
+     /* author */
+     .authore_content{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .single_detail {
+        flex-wrap: wrap;
+        gap: 4rem 2rem;
+    }
+    .author_heading{
+        text-align: center;
+    }
+    .authore_line {
+       
+        margin: 0 auto;
+    }
+
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  
+    .nav{
+       
+        border-radius: 0;
+    }
+    .nav_bar {
+        padding-top: 0rem;
+    }
+    .menu>a{
+        margin: 0.5rem;
+    }
+    .top_ntfs_text{
+        flex-basis: 100%;
+    }
+   
+    .top_ntfs{
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem 2rem;
+    }
+    /* Categories */
+    .categories_block{
+        flex-wrap: wrap;
+    }
+    .NFT_heading{
+        padding: 2rem;
+    }
+    .NFT_top{
+        padding: 2rem;
+    }
+    .items_block{
+        gap: 5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* explore */
+    .slider_img{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .seller_block {
+        flex-wrap: wrap;
+    }
+    .sellers{
+        flex-basis: 25rem;
+    }
+    .discover_details_block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .discover_items_top{
+        justify-content: space-evenly;
+    }
+    .single_details{
+        flex-wrap: wrap;
+       align-items: center;
+    }
+    .bottom_block{
+        width: 25rem;
+        margin-bottom: 2rem;
+    }
+    /* item details */
+    .item_block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 6rem;
+    }
+    .buddings_card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .budding_block{
+        gap: 2rem;
+    }
+    .budding_card_box{
+        padding-bottom: 2rem;
+    }
+      /* creaters */
+      .create {
+        margin: 7rem 4rem;
+      }
+      .create_top_input {
+        flex-direction: column;
+        align-items: center;
+      }
+       .create_input {
+        flex-direction: column;
+        align-items: center;
+      }
+      .create_input_file {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+      }
+      .top_input>input{
+        width: 45rem;
+    }
+    .bottom_input>input{
+        width: 45rem;
+    }
+    .create_btn>button {
+        padding: 0.5rem 17rem;
+    }
+    /* author */
+    .authore_content{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .single_detail {
+        flex-wrap: wrap;
+        gap: 4rem 2rem;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .container {
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    .menu>a{
+        margin: 0.5rem;
+    }
+  
+    .top_ntfs{
+        gap: 5rem;
+    }
+    .categories_block .item {
+        padding: 1.5rem 1.99rem;
+    }
+    .items_block {
+        gap: 5rem;
+    }
+    .item_card{
+        gap: 1rem;
+    }
+    .items_profile_details{
+        gap: 1rem;
+    }
+    /* explore */
+    .slider_img>.img>img{
+        width: 27rem;
+    }
+    /* items details */
+    .item_imgs>img{
+        width: 44rem;
+    }
+    .item_details_info {
+       
+        gap: 2rem;
+    }
+    .item_content {
+        flex-basis: 29rem;
+    }
+    .item_content_heading {
+        padding-top: 0;
+    }
+    /* item */
+    .buddings_card {
+        padding-top: 1rem;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .budding_block{
+        gap: 1rem;
+    }
+    .budding_card_img>img{
+        width: 13rem;
+    }
+    .budding_content {
+        padding-right: 1rem;
+    }
+    /* creaters */
+    .top_input>input{
+        width: 20.5rem;
+    }
+    .bottom_input>input{
+        width: 32rem;
+    }
+    .create_btn>button {
+        padding: 0.5rem 17rem;
+    }
+    /* author */
+    .double_block_img>img {
+        width: 15rem;
+       
+    }
+    .block_profile_details {
+       
+        gap: 2rem;
+    }
+    .discover_view_details{
+        right: -20%;
+    }
+    .discover_view_details>button{
+        left: 33%;
+    }
+}
